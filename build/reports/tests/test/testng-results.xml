@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="NopCommerce regression suite" duration-ms="9392" started-at="2019-10-05T21:44:09Z" finished-at="2019-10-05T21:44:18Z">
+    <groups>
+    </groups>
+    <test name="Regression Test" duration-ms="9392" started-at="2019-10-05T21:44:09Z" finished-at="2019-10-05T21:44:18Z">
+      <class name="tests.ContactUsTest">
+        <test-method status="PASS" signature="startDriver(java.lang.String)[pri:0, instance:tests.ContactUsTest@430216a3]" name="startDriver" is-config="true" duration-ms="14816" started-at="2019-10-05T21:43:54Z" finished-at="2019-10-05T21:44:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="UsercanContactUs()[pri:0, instance:tests.ContactUsTest@430216a3]" name="UsercanContactUs" duration-ms="8754" started-at="2019-10-05T21:44:09Z" finished-at="2019-10-05T21:44:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UsercanContactUs -->
+        <test-method status="PASS" signature="screenShotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.ContactUsTest@430216a3]" name="screenShotOnFailure" is-config="true" duration-ms="5" started-at="2019-10-05T21:44:18Z" finished-at="2019-10-05T21:44:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UsercanContactUs status=SUCCESS method=ContactUsTest.UsercanContactUs()[pri:0, instance:tests.ContactUsTest@430216a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShotOnFailure -->
+        <test-method status="PASS" signature="stopDriver()[pri:0, instance:tests.ContactUsTest@430216a3]" name="stopDriver" is-config="true" duration-ms="5012" started-at="2019-10-05T21:44:18Z" finished-at="2019-10-05T21:44:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.ContactUsTest -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- NopCommerce regression suite -->
+</testng-results>
